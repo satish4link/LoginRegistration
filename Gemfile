@@ -32,7 +32,6 @@ group :development do
   gem 'better_errors'
   gem 'rails_layout'
   gem 'spring-commands-rspec'
-  gem 'sqlite3'
 end
 group :development, :test do
   gem 'factory_girl_rails'
@@ -44,6 +43,10 @@ group :test do
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
+end
+
+group :development do
+  gem 'sqlite3'
 end
 
 group :production do
